@@ -28,17 +28,9 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #ifndef PCANTOMOTEUS_HPP
 #define PCANTOMOTEUS_HPP
 
-#include <iostream>
-#include <ostream> 
-#include <iterator>
-#include <ctime>
-#include <vector>
-#include <math.h>
-#include <string.h>
-#include <unistd.h>
+#include <PCANBasic.h> // Peak m2canFd board lib
 #include <ros/ros.h>
 
-#include <PCANBasic.h> // Peak m2canFd board lib
 
 //define pcan 4 ports to their respective physical adress
 #define PCAN_DEV1	PCAN_PCIBUS1 // one complete leg (HAA, HFE, KFE)
